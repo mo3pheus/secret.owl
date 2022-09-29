@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package hogwarts.engineering.secret.owl;
+
+message HelpLetter{
+  string senderName = 1;
+  string senderPassword = 2;
+  string message = 3;
+}
